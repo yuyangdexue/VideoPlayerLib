@@ -7,12 +7,14 @@
 //
 
 #import "ZYBAppDelegate.h"
+#import "VideoPlayerLib.h"
 
 @implementation ZYBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [VideoPlayerLib log];
     return YES;
 }
 

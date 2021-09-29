@@ -1,0 +1,23 @@
+{
+  "name": "VideoPlayerLib",
+  "version": "0.1.0",
+  "summary": "A short description of VideoPlayerLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuyang/VideoPlayerLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuyang": "yuyang20@zuoyebang.com"
+  },
+  "source": {
+    "git": "https://github.com/yuyang/VideoPlayerLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "VideoPlayerLib/Classes/**/*",
+  "static_framework": true
+}

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1824ED0567205674FD5A7F59 /* Pods_VideoPlayerLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoPlayerLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52ED0BB70AA3720BC7927B25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		52ED0BB70AA3720BC7927B25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		55990AD945BE3BA1B7F54F37 /* Pods-VideoPlayerLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayerLib_Tests/Pods-VideoPlayerLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* VideoPlayerLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayerLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		7F3E727151FC2E106A4E6666 /* Pods-VideoPlayerLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayerLib_Example/Pods-VideoPlayerLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A907782CE924454F98655C7F /* Pods-VideoPlayerLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerLib_Example.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayerLib_Example/Pods-VideoPlayerLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C3A2C37E942D357DCD6DC914 /* VideoPlayerLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VideoPlayerLib.podspec; path = ../VideoPlayerLib.podspec; sourceTree = "<group>"; };
+		C3A2C37E942D357DCD6DC914 /* VideoPlayerLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VideoPlayerLib.podspec; path = ../VideoPlayerLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D398B46AE2F736A2738ED9D1 /* Pods-VideoPlayerLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayerLib_Tests/Pods-VideoPlayerLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D6177448FE7AC7745C14A6C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D6177448FE7AC7745C14A6C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FD014C68A89CA0F23CB022E4 /* Pods_VideoPlayerLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoPlayerLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				55990AD945BE3BA1B7F54F37 /* Pods-VideoPlayerLib_Tests.debug.xcconfig */,
 				D398B46AE2F736A2738ED9D1 /* Pods-VideoPlayerLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				02A2C2BEFA9B604A9C4D3497 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -296,24 +295,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02A2C2BEFA9B604A9C4D3497 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerLib_Example/Pods-VideoPlayerLib_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/VideoPlayerLib/VideoPlayerLib.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VideoPlayerLib.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoPlayerLib_Example/Pods-VideoPlayerLib_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		29DC946BCD474539CF1BB103 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
