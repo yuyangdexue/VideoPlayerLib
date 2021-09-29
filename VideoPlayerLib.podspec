@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VideoPlayerLib'
-  s.version          = '0.1.1'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of VideoPlayerLib.'
 
 # This description is used to generate tags and improve search results.
