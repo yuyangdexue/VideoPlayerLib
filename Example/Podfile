@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'VideoPlayerLib_Example' do
-  pod 'VideoPlayerLib', :path => '../'
+  pod 'VideoPlayerLib', :path => '../VideoPlayerLib-0.1.5'
 
   target 'VideoPlayerLib_Tests' do
     inherit! :search_paths

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VideoPlayerLib'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A short description of VideoPlayerLib.'
 
 # This description is used to generate tags and improve search results.
@@ -21,6 +21,8 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
+                       s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+                        s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.homepage         = 'https://github.com/yuyangdexue/VideoPlayerLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

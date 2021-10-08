@@ -10,14 +10,14 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - Specta (1.0.7)
-  - VideoPlayerLib (0.1.0)
+  - VideoPlayerLib (0.1.5)
 
 DEPENDENCIES:
   - Expecta
   - "Expecta+Snapshots"
   - FBSnapshotTestCase
   - Specta
-  - VideoPlayerLib (from `../`)
+  - VideoPlayerLib (from `../VideoPlayerLib-0.1.5`)
 
 SPEC REPOS:
   trunk:
@@ -28,15 +28,15 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   VideoPlayerLib:
-    :path: "../"
+    :path: "../VideoPlayerLib-0.1.5"
 
 SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  VideoPlayerLib: 6452c470258895ce57d378342271ba27094a09ee
+  VideoPlayerLib: 5aedd169639e251a43b8a8e2fb945acb4460ce72
 
-PODFILE CHECKSUM: 19b241f776576efd0c767ff25aba5a95d095f27c
+PODFILE CHECKSUM: 80f02ceebe185de0ee207ab95116f6e57875d226
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

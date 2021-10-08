@@ -11,7 +11,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface VideoPlayerLib : NSObject
 
-+ (void)log;
+@property(nonatomic,copy)dispatch_block_t tp;
+
++ (instancetype)log:(dispatch_block_t) t;
+
++ (void)log1log:(dispatch_block_t) t;
+
 
 @end
 
